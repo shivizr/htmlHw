@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #001C30;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+h2 {
+    color: rgb(245,255,250);
+    margin: 0;
+    padding: 50px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin: 5px 0;
+}
+
+button {
+    color: black;
+    border-radius: 6px;
+    border: none;
+    transition: 0.3s;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    padding: 10px 15px;
+
+}
+.Pinky {
+    background-color: #176B87;
+}
+
+.Ring {
+    background-color: #64CCC5;
+}
+
+.MiddleoFmiddle {
+    background-color: #FF9EAA;
+}
+
+.nextToMiddle {
+    background-color: #DAFFFB;
+}
+button:hover {
+    background-color: #001C30;
+    cursor: pointer;
+}
+
+/* Special key widths */
+.Pinky[id="tab"]{
+    padding-left: 23px;
+    padding-right: 23px;
+}
+.Pinky[id="caps lock"],
+.Pinky[id="return"],
+.Pinky[id="delete"] {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.Pinky[id="shift"]{
+    padding-left: 38px;
+    padding-right: 38px;
+    
+}
+
